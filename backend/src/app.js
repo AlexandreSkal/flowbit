@@ -26,7 +26,8 @@ if (process.env.NODE_ENV !== 'production') {
     app.use(morgan('dev'));
 }
 
-app.use(cors({ origin: process.env.CORS_ORIGIN }));
+//app.use(cors({ origin: process.env.CORS_ORIGIN }));
+app.use(cors());
 
 app.use(helmet());
 
