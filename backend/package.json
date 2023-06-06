@@ -29,7 +29,7 @@
     "morgan": "^1.10.0",
     "mysql2": "^2.3.3",
     "node-binance": "^1.0.0",
-    "node-binance-api": "^0.13.1",
+    "node-binance-api": "github:AlexandreSkal/node-binance-api",
     "node-schedule": "^2.1.1",
     "nodemon": "^2.0.20",
     "sequelize": "^6.30.0",
